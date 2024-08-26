@@ -21,7 +21,7 @@ const questions = [
 let currentQuestionIndex = 0;
 let score = 0;
 let timer;
-let timeLeft = 10;
+let timeLeft = 15;
 
 const questionEl = document.getElementById("question");
 const optionsEl = document.getElementById("options");
