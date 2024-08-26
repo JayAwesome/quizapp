@@ -58,7 +58,7 @@ function showQuestion() {
 
 function resetState() {
     clearTimeout(timer);
-    timeLeft = 10;
+    timeLeft = 15;
     timerEl.innerText = `Time: ${timeLeft}`;
     while (optionsEl.firstChild) {
         optionsEl.removeChild(optionsEl.firstChild);
